@@ -54,14 +54,14 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.brown,
       body: Container(
         child: Stack(
           alignment: Alignment.center,
           children: <Widget>[
             Opacity(
                 opacity: 0.5,
-                child: Image.asset('assets/img/bg.png')
+                child: Image.asset('assets/img/bg2.png')
             ),
 
             Shimmer.fromColors(
