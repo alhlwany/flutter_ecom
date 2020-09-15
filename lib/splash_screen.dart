@@ -54,6 +54,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       body: Container(
         child: Stack(
           alignment: Alignment.center,
@@ -65,8 +66,8 @@ class _SplashScreenState extends State<SplashScreen> {
 
             Shimmer.fromColors(
               period: Duration(milliseconds: 1000),
-              baseColor: kMoveColor,
-              highlightColor: kMovliColor,
+              baseColor: kGoldColor,
+              highlightColor: kSecondaryColor,
               child: Container(
                 padding: EdgeInsets.all(16.0),
                 child: Text(

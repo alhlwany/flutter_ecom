@@ -8,6 +8,7 @@ const kUnActiveColor = Color(0xFFC1BDB8);
 const kGrenColor = Color.fromARGB(33,150,243,1);
 const kMoveColor = Color(0xff7f00ff);
 const kMovliColor = Color(0xffe100ff);
+const kBrown1Color = Color(0x66693F26);
 const kJackets = 'jackets';
 const kTrousers = 'trousers';
 const kTshirts = 't-shirts';
