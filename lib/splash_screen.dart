@@ -61,11 +61,11 @@ class _SplashScreenState extends State<SplashScreen> {
           children: <Widget>[
             Opacity(
                 opacity: 0.5,
-                child: Image.asset('assets/img/bg2.png')
+                child: Image.asset('assets/img/bg.png')
             ),
 
             Shimmer.fromColors(
-              period: Duration(milliseconds: 1000),
+              period: Duration(milliseconds: 2500),
               baseColor: kGoldColor,
               highlightColor: kSecondaryColor,
               child: Container(
